@@ -7,33 +7,22 @@ public class Variable {
 		String firstName = "Lester", middleInitial = " F.", lastName = " Osana";
 		System.out.println("My name is " + firstName + middleInitial + lastName + ".");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		// Initialization
-		String timba = "tubig";
+		// String timba = "tubig";
 		
 		
-		timba = "bigas";
+		// timba = "bigas";
 		
 		// System.out.println(timba);
 		
 		// User age
-		int age = 26;
+		// int age = 26;
 		
 		// Declaration
-		double temp;
+		// double temp;
 		
 		// Assignment
-		temp = 38.5;
+		// temp = 38.5;
 		
 		
 	}
