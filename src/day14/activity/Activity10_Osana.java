@@ -161,7 +161,12 @@ public class Activity10_Osana {
         System.out.println("\nExample:");
         System.out.println("Fuel Remaining: " + fuelRemaining + " liters");
         System.out.println("Whole Liters: " + Math.floor(fuelRemaining));
-
+        
+        // Additional Examples for ceil & floor
+        double grade = 96.5;
+        System.out.println("\nMy final grade is " + Math.ceil(grade));
+        System.out.println("My final grade is " + Math.floor(grade));
+        
         System.out.println("\n-----------------------------------------------------\n");
 
         // --------------------------------------------------
