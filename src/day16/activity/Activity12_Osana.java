@@ -119,4 +119,4 @@ public class Activity12_Osana {
 		System.out.println("Hello, I am " + name + ".");
 		System.out.println("I am " + age + " years old.");
 	}
-} 
+}
