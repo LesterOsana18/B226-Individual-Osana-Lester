@@ -91,7 +91,7 @@ public class Activity12_Osana {
 	
 	// 7. Create a method to identify if a person is a voter or not
 	public static void voterStatus(int age, boolean registered) {
-	    if (age >= 18 && registered) { // Note: you can just write 'registered' instead of 'registered == true'
+	    if (age >= 18 && registered) {
 	        System.out.println("You are a qualified voter.");
 	    } else if (age >= 18 && !registered) {
 	        System.out.println("You are old enough, but you need to register to vote.");
