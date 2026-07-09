@@ -9,5 +9,6 @@ public class SampleCode {
 		// TEST COMMIT #1
 		// TEST COMMIT #2
 		// TEST COMMIT #3
+		// TEST COMMIT #4
 	}
 }
