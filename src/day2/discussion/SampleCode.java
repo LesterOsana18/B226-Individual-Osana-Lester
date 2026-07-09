@@ -13,5 +13,6 @@ public class SampleCode {
 		// TEST COMMIT #5
 		// TEST COMMIT #6
 		// TEST COMMIT #7
+		// TEST COMMIT #8
 	}
 }
