@@ -22,7 +22,7 @@ public class UserAccount {
 		this.password = password;
 	}
 	
-	// Setter Methods
+	// Setter (Mutator) Methods
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
@@ -47,7 +47,7 @@ public class UserAccount {
 		this.password = password;
 	}
 	
-	// Getter Methods
+	// Getter (Accessor) Methods
 	public String getFirstName() {
 		return firstName;
 	}
