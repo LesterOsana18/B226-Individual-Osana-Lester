@@ -1,22 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package day21.discussion;
 
+
 public class Main {
-
-	public static void main(String[] args) {
-		Ballpen ballpen = new Ballpen();
-		
-		// Provide value for each variable
-		ballpen.setBrand("Pilot");
-		ballpen.setColor("Black");
-		ballpen.setPrice(15);
-		ballpen.setPointSize(0.5);
-		
-		// Print out each attribute
-		System.out.println(ballpen.getBrand());;
-		System.out.println(ballpen.getColor());;
-		
-		System.out.println(ballpen.getPrice());
-		System.out.println(ballpen.getPointSize());
-	}
-
+    
+    public static void main(String[] args) {
+        Ballpen ballpen = new Ballpen("Pilot", "Black", 30, 0.5);
+//        ballpen.setBrand("Pilot");
+//        ballpen.setColor("Black");
+//        
+//        System.out.println(ballpen.getBrand());
+//        System.out.println(ballpen.getColor());
+    }
 }
