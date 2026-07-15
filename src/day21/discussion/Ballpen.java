@@ -13,7 +13,7 @@ public class Ballpen {
     // data validation -> data use setter and getter methods 
     
     // private fields / members
-    private int id;
+    // private int id;
     private String brand; // pilot
     private String color; // black
     private double price;
@@ -33,8 +33,6 @@ public class Ballpen {
     }
     
     
-    
-    
     // setter method / mutator method
     public void setBrand(String brand){
         this.brand = brand;
@@ -42,6 +40,14 @@ public class Ballpen {
     
     public void setColor(String color){
         this.color = color;
+    }
+    
+    public void setPrice(double price) {
+    	this.price = price;
+    }
+    
+    public void setPointSize(double pointSize) {
+    	this.pointSize = pointSize;
     }
     
     // getter method / accessor method
@@ -52,4 +58,13 @@ public class Ballpen {
     public String getColor(){
         return color;
     }
+    
+    public double getPrice() {
+    	return price;
+    }
+    
+    public double getPointSize() {
+    	return pointSize;
+    }
 }
+
